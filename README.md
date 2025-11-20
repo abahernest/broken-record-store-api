@@ -300,12 +300,29 @@ Starts with Node debugger listening on port 9229
 
 ## 📊 Test Coverage Summary
 
+![Coverage](https://img.shields.io/badge/coverage-69.17%25-green)
+![Tests Passing](https://img.shields.io/badge/tests-95%2F95-brightgreen)
+![Branches](https://img.shields.io/badge/branches-62.65%25-yellowgreen)
+
+### Coverage Overview
+- **Statements**: 69.17%
+- **Branches**: 62.65%
+- **Functions**: 78.33%
+- **Lines**: 70.52%
+
+### Coverage by Module
+| Module | Statements | Branches | Functions | Lines |
+|--------|-----------|----------|-----------|-------|
+| **Controllers** | 100% | 71.42% | 100% | 100% |
+| **Services** | 82.64% | 61.29% | 93.75% | 82.62% |
+| **Utilities** | 76.43% | 61.4% | 75% | 77.77% |
+| **Overall** | 69.17% | 62.65% | 78.33% | 70.52% |
+
 ### Test Statistics
-- **Total Tests**: 152 passing ✅
+- **Total Tests**: 95 passing ✅
   - **Unit Tests**: 94 tests (6 test suites)
   - **E2E Tests**: 58 tests (2 test suites)
-- **Code Coverage**: Full coverage of Record and Order services, controllers, and business logic
-- **Test Execution Time**: ~45 seconds (unit tests), ~19 seconds (e2e tests)
+- **Test Execution Time**: ~45 seconds (unit tests), ~20 seconds (e2e tests)
 
 ### Running the App
 #### Development Mode
